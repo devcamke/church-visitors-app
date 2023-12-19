@@ -3,6 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.2.2"
 
+
 gem 'bcrypt', '~> 3.1', '>= 3.1.20'
 gem 'image_processing', '~> 1.12', '>= 1.12.2'
 gem 'puma', '~> 6.4'
@@ -10,7 +11,6 @@ gem 'redis', '~> 5.0', '>= 5.0.8'
 gem "authentication-zero"
 gem "bootsnap", require: false
 gem "class_variants"
-
 gem "http"
 gem "inline_svg"
 gem "jsbundling-rails"

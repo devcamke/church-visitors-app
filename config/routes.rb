@@ -15,7 +15,6 @@ Rails.application.routes.draw do
 
   # App routes
   resources :posts
-  resources :lessons, only: :index
 
   root "pages#home"
 
