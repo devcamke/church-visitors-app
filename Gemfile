@@ -10,6 +10,7 @@ gem 'redis', '~> 5.0', '>= 5.0.8'
 gem "authentication-zero"
 gem "bootsnap", require: false
 gem "class_variants"
+
 gem "http"
 gem "inline_svg"
 gem "jsbundling-rails"
@@ -46,6 +47,7 @@ group :test do
   gem "capybara"
   gem "cuprite"
   gem "shoulda-matchers", require: false
+  gem 'factory_bot', '~> 6.4', '>= 6.4.2'
   # gem "vcr", require: false
   # gem "webmock"
 end

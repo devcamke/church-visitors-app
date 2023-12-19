@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+
   # Authentication routes
   get  "sign_in", to: "sessions#new"
   post "sign_in", to: "sessions#create"
@@ -17,4 +18,7 @@ Rails.application.routes.draw do
   resources :lessons, only: :index
 
   root "pages#home"
+
+  resources :visitors
+
 end
