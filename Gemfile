@@ -11,6 +11,8 @@ gem 'redis', '~> 5.0', '>= 5.0.8'
 gem "authentication-zero"
 gem "bootsnap", require: false
 gem "class_variants"
+gem "chartkick"
+gem 'groupdate'
 gem "http"
 gem "inline_svg"
 gem "jsbundling-rails"

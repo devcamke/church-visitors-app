@@ -11,4 +11,6 @@
     <li>User authentication</li>
     <li>RSpec</li>
   </ul>
+  <%= line_chart Visitor.group_by_day(:created_at).count %>
+
 </div>
